@@ -1,0 +1,35 @@
+\item \points{15} {\bf Bayesian Logistic Regression and weight decay}
+
+% For problem 3
+\newcommand{\thetaml}{{\theta_{\rm ML}}}
+\newcommand{\thetamap}{{\theta_{\rm MAP}}}
+
+  Consider using a logistic regression model $h_\theta(x) =
+  g(\theta^Tx)$ where $g$ is the sigmoid function, and let a training
+  set $\{(\xsi, \ysi); i=1, \ldots, \nexp\}$ be given as usual.  The maximum
+  likelihood estimate of the parameters $\theta$ is given by
+  \[
+  \thetaml = \arg \max_\theta \prod_{i=1}^\nexp p(\ysi | \xsi ; \theta).
+  \]
+  If we wanted to regularize logistic regression, then we might put a
+  Bayesian prior on the parameters.  Suppose we chose the prior $\theta
+  \sim \calN(0,\tau^2I)$ (here, $\tau > 0$, and $I$ is the
+  $\di+1$-by-$\di+1$ identity matrix), and then found the MAP estimate of
+  $\theta$ as:
+  \[
+  \thetamap = \arg \max_\theta p(\theta) \prod_{i=1}^\nexp p(\ysi | \xsi ,
+  \theta)
+  \]
+
+  Prove that
+  \[
+  ||\thetamap||_2 \leq ||\thetaml||_2
+  \]
+  [Hint: Consider using a proof by contradiction.]\\
+  {\bf Remark.}  For this reason, this form of regularization is
+  sometimes also called {\bf weight decay}, since it encourages the
+  weights (meaning parameters) to take on generally smaller values.
+
+\ifnum\solutions=1 {
+  \input{weight-decay/00-main-sol}
+} \fi
