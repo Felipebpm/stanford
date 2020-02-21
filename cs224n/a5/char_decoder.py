@@ -33,12 +33,11 @@ class CharDecoder(nn.Module):
         @returns dec_hidden (tuple(Tensor, Tensor)): internal state of the LSTM after reading the input characters. A tuple of two tensors of shape (1, batch, hidden_size)
         """
         ### YOUR CODE HERE for part 2a
-        ### TODO - Implement the forward pass of the character decoder. ###########################################################################
-        x = self.decoderCharEmb(input)
-        h_t, (dec_hidden) = self.charDecoder(x, dec_hidden)
-        s_t = self.char_output_projection(h_t)
-        return s_t, (dec_hidden)
-
+        ### TODO - Implement the forward pass of the character decoder.
+        embeddings = self.decoderCharEmb(input)
+        out, (h, c) = self.charDecoder(embeddings, dec_hidden)
+        scores = self.char_output_projection(out)
+        return scores, (h, c)
         ### END YOUR CODE 
 
 
@@ -57,11 +56,13 @@ class CharDecoder(nn.Module):
         ###       - char_sequence corresponds to the sequence x_1 ... x_{n+1} (e.g., <START>,m,u,s,i,c,<END>). Read the handout about how to construct input and target sequence of CharDecoderLSTM.
         ###       - Carefully read the documentation for nn.CrossEntropyLoss and our handout to see what this criterion have already included:
         ###             https://pytorch.org/docs/stable/nn.html#crossentropyloss
-
-        loss_function = nn.CrossEntropyLoss(ignore_index = 0)
-        s_t, (c_t) = self.forward(char_sequence[:-1], dec_hidden)
-        loss = loss_function(s_t.permute(0, 2, 1), char_sequence[1:])
-        return loss
+        padding_idx = self.target_vocab.char2id['∏']
+        n = char_sequence.shape[0] - 1
+        loss = nn.CrossEntropyLoss(ignore_index=padding_idx, reduction='sum')
+        scores, (h, c) = self.forward(torch.narrow(char_sequence, 0, 0, n), dec_hidden)
+        scores = scores.permute(0, 2, 1)
+        return loss(scores, torch.narrow(char_sequence, 0, 1, n))
+        
         ### END YOUR CODE
 
     def decode_greedy(self, initialStates, device, max_length=21):
@@ -83,34 +84,21 @@ class CharDecoder(nn.Module):
         ###      - You may find torch.argmax or torch.argmax useful
         ###      - We use curly brackets as start-of-word and end-of-word characters. That is, use the character '{' for <START> and '}' for <END>.
         ###        Their indices are self.target_vocab.start_of_word and self.target_vocab.end_of_word, respectively.
-
-        ### END YOUR CODE
-        output_word = []
-        batch_size = initialStates[0].size(1)
-        current_char = torch.ones(1, batch_size, dtype=torch.long, device=device) * self.target_vocab.start_of_word
-        current_states = initialStates
+        end_char = self.target_vocab.id2char[self.target_vocab.end_of_word]
+        batch_size = initialStates[0].shape[1]
+        decodedWords = [[] for i in range(batch_size)]
+        chars = torch.tensor([[self.target_vocab.start_of_word] * batch_size], 
+                device=device)
+        dec_hidden = initialStates
         for i in range(max_length):
-            scores, current_states = self.forward(current_char, current_states)
-            probabilities = torch.softmax(scores, dim=2)
-            current_char = torch.argmax(probabilities, 2)
-            output_word.append(current_char)
-
-        output_words = [''] * batch_size
-        finished_sentences = []
-        for char_idx in output_word:
-            for i in range(batch_size):
-                if i in finished_sentences:
-                    continue
-                char = self.target_vocab.id2char[int(char_idx[0][i])]
-                if int(char_idx[0][i]) == self.target_vocab.end_of_word:
-                    finished_sentences.append(i)
-                    continue
-                output_words[i] += char
-        return output_words
-
-
-
-
-
-
+            scores, dec_hidden = self.forward(chars, dec_hidden)
+            chars = torch.argmax(scores, 2)
+            for j in range(batch_size):
+                decodedWords[j].append(self.target_vocab.id2char[chars[0][j].item()])
+        for ix, word in enumerate(decodedWords):
+            if end_char in word:
+                decodedWords[ix] = word[:word.index(end_char)]
+            decodedWords[ix] = ''.join(decodedWords[ix])
+        return decodedWords
+        ### END YOUR CODE
 

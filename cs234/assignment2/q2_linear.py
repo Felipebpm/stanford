@@ -224,10 +224,11 @@ class Linear(DQN):
         ##############################################################
         #################### YOUR CODE HERE - 8-12 lines #############
 
-        optimizer = tf.train.AdamOptimizer()
+        optimizer = tf.train.AdamOptimizer(self.lr)
         variables_in_scope = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES, scope)
         gradients, variables = zip(*optimizer.compute_gradients(self.loss, var_list=variables_in_scope))
-        gradients = [tf.clip_by_norm(gradient, self.config.clip_val) for gradient in gradients]
+        if self.config.grad_clip:
+            gradients = [tf.clip_by_norm(gradient, self.config.clip_val) for gradient in gradients]
         self.train_op = optimizer.apply_gradients(zip(gradients, variables))
         self.grad_norm = tf.global_norm(gradients)
 
