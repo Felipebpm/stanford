@@ -1,0 +1,118 @@
+2020-02-25 14:12:26,994:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 14:12:27,001:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 14:12:27,025:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 14:12:27,197:INFO: Making new env: CartPole-v0
+2020-02-25 14:12:27,202:INFO: Starting new video recorder writing to /Users/fbomfim/workspace/stanford/cs234/assignment3/code/results/CartPole-v0-no_baseline-r_seed=17/openaigym.video.0.7365.video000000.mp4
+2020-02-25 14:12:29,214:INFO: Average reward: 28.00 +/- 0.00
+2020-02-25 14:12:29,506:INFO: Average reward: 27.75 +/- 3.84
+2020-02-25 14:12:29,767:INFO: Average reward: 27.78 +/- 3.26
+2020-02-25 14:12:30,036:INFO: Average reward: 35.07 +/- 3.40
+2020-02-25 14:12:30,364:INFO: Average reward: 33.59 +/- 3.69
+2020-02-25 14:12:30,683:INFO: Average reward: 42.78 +/- 6.01
+2020-02-25 14:12:31,018:INFO: Average reward: 46.10 +/- 6.34
+2020-02-25 14:12:31,295:INFO: Average reward: 46.10 +/- 4.52
+2020-02-25 14:12:31,575:INFO: Average reward: 61.56 +/- 4.70
+2020-02-25 14:12:31,883:INFO: Average reward: 55.33 +/- 5.80
+2020-02-25 14:12:32,131:INFO: Average reward: 70.38 +/- 9.43
+2020-02-25 14:12:32,399:INFO: Average reward: 78.17 +/- 13.07
+2020-02-25 14:12:32,664:INFO: Average reward: 58.24 +/- 4.67
+2020-02-25 14:12:32,940:INFO: Average reward: 81.83 +/- 10.86
+2020-02-25 14:12:33,214:INFO: Average reward: 76.31 +/- 8.97
+2020-02-25 14:12:33,480:INFO: Average reward: 72.23 +/- 5.76
+2020-02-25 14:12:33,746:INFO: Average reward: 95.22 +/- 14.44
+2020-02-25 14:12:34,023:INFO: Average reward: 72.92 +/- 4.94
+2020-02-25 14:12:34,306:INFO: Average reward: 108.22 +/- 12.14
+2020-02-25 14:12:34,579:INFO: Average reward: 102.00 +/- 13.92
+2020-02-25 14:12:34,852:INFO: Average reward: 141.29 +/- 14.57
+2020-02-25 14:12:35,122:INFO: Average reward: 152.00 +/- 9.13
+2020-02-25 14:12:35,394:INFO: Average reward: 176.80 +/- 1.37
+2020-02-25 14:12:35,679:INFO: Average reward: 173.00 +/- 14.23
+2020-02-25 14:12:35,959:INFO: Average reward: 195.60 +/- 2.66
+2020-02-25 14:12:36,224:INFO: Average reward: 189.00 +/- 6.29
+2020-02-25 14:12:36,488:INFO: Average reward: 194.60 +/- 2.99
+2020-02-25 14:12:36,768:INFO: Average reward: 195.80 +/- 3.33
+2020-02-25 14:12:37,045:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:37,312:INFO: Average reward: 196.80 +/- 2.86
+2020-02-25 14:12:37,577:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:37,849:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:38,124:INFO: Average reward: 188.20 +/- 10.55
+2020-02-25 14:12:38,398:INFO: Average reward: 199.00 +/- 0.89
+2020-02-25 14:12:38,669:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:38,936:INFO: Average reward: 198.20 +/- 1.61
+2020-02-25 14:12:39,207:INFO: Average reward: 166.60 +/- 11.63
+2020-02-25 14:12:39,475:INFO: Average reward: 196.00 +/- 3.58
+2020-02-25 14:12:39,746:INFO: Average reward: 190.60 +/- 8.41
+2020-02-25 14:12:40,023:INFO: Average reward: 192.20 +/- 6.98
+2020-02-25 14:12:40,331:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:40,666:INFO: Average reward: 196.60 +/- 3.04
+2020-02-25 14:12:41,230:INFO: Average reward: 196.80 +/- 2.86
+2020-02-25 14:12:41,514:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:41,805:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:42,115:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:42,380:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:42,640:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:42,914:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:43,192:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:43,479:INFO: Average reward: 148.83 +/- 21.84
+2020-02-25 14:12:43,763:INFO: Average reward: 165.33 +/- 20.32
+2020-02-25 14:12:44,041:INFO: Average reward: 174.60 +/- 13.97
+2020-02-25 14:12:44,310:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:44,601:INFO: Average reward: 129.57 +/- 23.70
+2020-02-25 14:12:44,909:INFO: Average reward: 169.40 +/- 19.39
+2020-02-25 14:12:45,204:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:45,481:INFO: Average reward: 187.00 +/- 11.63
+2020-02-25 14:12:45,772:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:46,060:INFO: Average reward: 185.40 +/- 8.15
+2020-02-25 14:12:46,571:INFO: Average reward: 196.20 +/- 3.40
+2020-02-25 14:12:46,919:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:47,185:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:47,479:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:47,755:INFO: Average reward: 175.40 +/- 22.00
+2020-02-25 14:12:48,058:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:48,359:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:48,657:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:48,951:INFO: Average reward: 176.40 +/- 21.11
+2020-02-25 14:12:49,245:INFO: Average reward: 195.20 +/- 4.07
+2020-02-25 14:12:49,532:INFO: Average reward: 175.80 +/- 17.71
+2020-02-25 14:12:49,821:INFO: Average reward: 144.67 +/- 16.40
+2020-02-25 14:12:50,090:INFO: Average reward: 172.00 +/- 16.77
+2020-02-25 14:12:50,346:INFO: Average reward: 198.20 +/- 1.61
+2020-02-25 14:12:50,636:INFO: Average reward: 157.00 +/- 20.55
+2020-02-25 14:12:50,921:INFO: Average reward: 170.40 +/- 26.48
+2020-02-25 14:12:51,204:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:51,491:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:51,762:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:52,316:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:52,619:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:52,891:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:53,162:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:53,456:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:53,731:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:54,009:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:54,293:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:54,572:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:54,859:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:55,144:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:55,429:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:55,698:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:55,973:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:56,248:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:56,519:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:56,795:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:57,084:INFO: Average reward: 200.00 +/- 0.00
+2020-02-25 14:12:57,357:INFO: Average reward: 194.60 +/- 2.96
+2020-02-25 14:12:57,683:INFO: Average reward: 190.20 +/- 3.43
+2020-02-25 14:12:57,964:INFO: Average reward: 194.60 +/- 1.59
+2020-02-25 14:12:58,252:INFO: Average reward: 166.50 +/- 4.08
+2020-02-25 14:12:58,252:INFO: - Training done.
+2020-02-25 14:12:58,462:INFO: Making new env: CartPole-v0
+2020-02-25 14:12:58,466:INFO: Starting new video recorder writing to /Users/fbomfim/workspace/stanford/cs234/assignment3/code/results/CartPole-v0-no_baseline-r_seed=17/openaigym.video.1.7365.video000000.mp4
+2020-02-25 14:13:02,665:INFO: Average reward: 143.00 +/- 0.00
+2020-02-25 14:13:02,808:INFO: Finished writing results. You can upload them to the scoreboard via gym.upload('/Users/fbomfim/workspace/stanford/cs234/assignment3/code/results/CartPole-v0-no_baseline-r_seed=17')
+2020-02-25 14:13:02,987:INFO: Finished writing results. You can upload them to the scoreboard via gym.upload('/Users/fbomfim/workspace/stanford/cs234/assignment3/code/results/CartPole-v0-no_baseline-r_seed=17')

@@ -1,0 +1,955 @@
+2020-02-25 09:37:36,165:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 09:37:36,176:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 09:37:36,197:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 09:37:36,299:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 09:37:36,417:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 09:37:37,419:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:37,419:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:37,419:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:37,419:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:37,421:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:37,421:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:37,421:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:37,421:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:37,423:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:37,423:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:37,423:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:37,423:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:37,424:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:37,424:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:37,424:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:37,424:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,684:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,685:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,687:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:40,688:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,605:INFO: Summary name Avg Reward is illegal; using Avg_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,607:INFO: Summary name Max Reward is illegal; using Max_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,608:INFO: Summary name Std Reward is illegal; using Std_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:37:41,609:INFO: Summary name Eval Reward is illegal; using Eval_Reward instead.
+2020-02-25 09:40:32,978:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 09:40:32,988:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 09:40:33,009:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 09:40:33,109:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 09:40:33,237:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 09:40:33,364:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:33,676:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:33,676:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:34,232:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:34,232:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:34,232:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:35,963:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:35,963:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:35,963:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:35,963:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:35,973:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:35,973:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:35,973:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:35,973:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:35,974:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:35,974:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:35,974:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:35,974:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,418:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,418:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,418:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,418:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,418:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,914:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,914:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,914:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,914:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,914:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:36,914:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,305:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,305:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,305:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,305:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,305:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,305:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,305:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:37,686:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,053:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,719:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:38,721:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,040:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:39,833:INFO: Making new env: CartPole-v0
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,299:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,300:INFO: Making new env: HalfCheetah-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,301:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 09:40:40,303:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:24,625:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 13:54:24,637:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 13:54:24,657:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 13:54:24,763:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 13:54:24,878:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 13:54:25,004:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:25,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:25,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:25,593:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:25,593:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:25,593:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,423:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:27,423:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:27,423:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:27,423:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:27,438:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:27,438:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:27,438:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:27,438:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:27,440:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,440:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,440:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,440:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,807:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,807:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,807:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,807:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:27,807:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,097:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,097:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,097:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,097:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,097:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,097:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,401:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,401:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,401:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,401:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,401:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,401:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,401:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:28,687:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,045:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,609:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,611:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:29,901:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,402:INFO: Making new env: CartPole-v0
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,689:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,690:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,692:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:54:30,693:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:58:57,720:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 13:58:57,731:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 13:58:57,753:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 13:58:57,860:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 13:58:57,963:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 13:58:58,093:INFO: Making new env: CartPole-v0
+2020-02-25 13:58:58,387:INFO: Making new env: CartPole-v0
+2020-02-25 13:58:58,387:INFO: Making new env: CartPole-v0
+2020-02-25 13:58:58,679:INFO: Making new env: CartPole-v0
+2020-02-25 13:58:58,679:INFO: Making new env: CartPole-v0
+2020-02-25 13:58:58,679:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,309:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:00,309:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:00,309:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:00,309:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:00,341:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:00,341:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:00,341:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:00,341:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:00,345:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,345:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,345:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,345:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,706:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,706:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,706:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,706:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,706:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,995:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,995:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,995:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,995:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,995:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:00,995:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,301:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,659:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:01,946:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,505:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,507:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:02,797:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,281:INFO: Making new env: CartPole-v0
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,567:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,570:INFO: Making new env: HalfCheetah-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,573:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 13:59:03,575:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:26,652:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 14:03:26,665:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 14:03:26,689:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 14:03:26,800:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 14:03:26,910:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 14:03:27,036:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:27,348:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:27,348:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:27,707:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:27,707:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:27,707:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,473:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:29,473:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:29,473:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:29,473:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:29,504:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:29,504:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:29,504:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:29,504:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:29,508:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,508:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,508:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,508:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,890:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,890:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,890:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,890:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:29,890:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,181:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,181:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,181:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,181:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,181:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,181:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,483:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,483:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,483:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,483:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,483:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,483:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,483:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:30,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,155:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,850:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:31,854:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,166:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:32,792:INFO: Making new env: CartPole-v0
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,201:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,207:INFO: Making new env: HalfCheetah-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,210:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 14:03:33,214:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:00:54,004:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 15:00:54,015:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 15:00:54,033:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 15:00:54,148:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 15:00:54,245:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 15:00:54,361:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:54,667:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:54,667:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:55,165:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:55,165:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:55,165:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:57,915:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:00:57,915:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:00:57,915:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:00:57,915:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:00:57,969:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:00:57,969:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:00:57,969:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:00:57,969:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:00:57,972:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:57,972:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:57,972:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:57,972:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,447:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,447:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,447:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,447:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,447:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,784:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,784:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,784:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,784:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,784:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:58,784:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,129:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,129:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,129:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,129:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,129:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,129:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,129:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,540:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:00:59,913:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,515:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,517:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:00,859:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,378:INFO: Making new env: CartPole-v0
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,660:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,663:INFO: Making new env: HalfCheetah-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,665:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:01:01,668:INFO: Making new env: InvertedPendulum-v1
+2020-02-25 15:30:16,807:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/network_utils.py:38: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+2020-02-25 15:30:16,816:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+2020-02-25 15:30:16,838:WARNING: From /Users/fbomfim/workspace/stanford/cs234/assignment3/code/policy_network.py:140: multinomial (from tensorflow.python.ops.random_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.random.categorical instead.
+2020-02-25 15:30:16,946:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/losses/losses_impl.py:667: to_float (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 15:30:17,042:WARNING: From /usr/local/lib/python3.7/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+2020-02-25 15:30:17,162:INFO: Making new env: CartPole-v0
+2020-02-25 15:30:17,457:INFO: Making new env: CartPole-v0
+2020-02-25 15:30:17,457:INFO: Making new env: CartPole-v0
+2020-02-25 15:30:17,750:INFO: Making new env: CartPole-v0
+2020-02-25 15:30:17,750:INFO: Making new env: CartPole-v0
+2020-02-25 15:30:17,750:INFO: Making new env: CartPole-v0
